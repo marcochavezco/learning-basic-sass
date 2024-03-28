@@ -5,4 +5,17 @@ body {
 
 header {
   background: #555555;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+header button {
+  background: #1aa;
+}
+header button::after {
+  content: "hellooo";
+}
+
+.contact button {
+  background: #1aa;
 }/*# sourceMappingURL=style.css.map */
