@@ -1,4 +1,4 @@
-header {
+header, .contact {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -9,10 +9,10 @@ header {
   justify-content: center;
   color: #fff;
 }
-header button {
+header button, .contact button {
   background: #1aa;
 }
-header button::after {
+header button::after, .contact button::after {
   content: "hellooo";
 }
 
@@ -22,12 +22,5 @@ body {
 }
 
 .contact {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-.contact button {
-  background: #1aa;
+  background-color: #1faad1;
 }/*# sourceMappingURL=style.css.map */

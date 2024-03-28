@@ -8,9 +8,6 @@ body {
 }
 
 .contact {
-  @include flexCenter(row);
-
-  button{
-    background: $primaryBtn;
-  }
+  @extend header;
+  background-color: #1faad1;
 }
