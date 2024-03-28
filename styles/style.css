@@ -1,9 +1,9 @@
-body {
-  background-color: #222222;
-  color: #ffffff;
-}
-
 header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: #555555;
   display: flex;
   justify-content: center;
@@ -16,6 +16,18 @@ header button::after {
   content: "hellooo";
 }
 
+body {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 .contact button {
   background: #1aa;
 }/*# sourceMappingURL=style.css.map */
